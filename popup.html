@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Word Manager</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div id="app">
+      <h1>Word Manager</h1>
+      <form id="wordForm">
+        <input type="text" id="word" placeholder="Word" required />
+        <textarea id="meaning" placeholder="Meaning" required></textarea>
+        <input
+          type="text"
+          id="synonyms"
+          placeholder="Synonyms (comma-separated)"
+        />
+        <input
+          type="text"
+          id="antonyms"
+          placeholder="Antonyms (comma-separated)"
+        />
+        <button type="submit">Add Word</button>
+      </form>
+      <div id="wordList"></div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

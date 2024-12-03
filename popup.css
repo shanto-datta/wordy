@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+}
+
+#app {
+  padding: 10px;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input,
+textarea,
+button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 1em;
+}
+
+#wordList {
+  margin-top: 20px;
+}
+
+.word-item {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.word-item h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
